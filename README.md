@@ -6,7 +6,7 @@ por meio dos algoritmos de Kruskal e Prim.
 No caso do grafo fornecido pelo exercício, os doois algoritmos encontram a mesma
 Árvore:
 
-![MST](/assets/kruskal_prim_mst.png)
+![MST](./assets/kruskal_prim_msp.png)
 
 ### Executando
 
