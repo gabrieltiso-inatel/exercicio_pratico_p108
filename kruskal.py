@@ -19,7 +19,7 @@ class KruskalMSP:
         self.graph = graph
 
     # Essa é a função responsável por encontrar a MSP
-    def find_msp(self) -> Tuple[int, List[Edge]]:
+    def find_mst(self) -> Tuple[int, List[Edge]]:
         sum = 0
         res = []
 

@@ -17,8 +17,11 @@ class Edge:
 class UndirectedGraph: 
     def __init__(self):
         self.edges: List[Edge] = []
+        self.num_edges = 0
 
     def add_undirected_edge(self, from_node: int, to_node: int, weight: int):
         # Uma rede não-direcionada conecta os nós na ida e na volta
         self.edges.append(Edge(from_node, to_node, weight))
         self.edges.append(Edge(to_node, from_node, weight))
+
+        self.num_edges += 1
